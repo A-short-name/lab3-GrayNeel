@@ -1,0 +1,41 @@
+.personal-bg {
+    background-color: #0277bdff;
+}
+
+.leftcol-bg {
+    background-color:#ecececff;
+}
+
+.trans {
+    background-color: transparent;
+}
+
+.activelist {
+    background-color: #0277bdff;
+    color: white;
+}
+
+.radius {
+    background-color: #0277bdff;
+    color: white;
+    position:fixed;
+    right:0.5rem;
+    bottom:0.5rem;
+}
+
+.read {
+    color: #d50000ff;
+}
+
+.activelist:hover{
+    z-index:1;
+    color:white;
+    text-decoration:none;
+    background-color:#0277bdff;
+}
+
+.user-icon {
+    position:fixed;
+    right:0.7rem;
+    top:0.7rem;
+}
