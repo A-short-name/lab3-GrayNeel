@@ -27,12 +27,6 @@
     color: #d50000ff;
 }
 
-.activelist:hover{
-    z-index:1;
-    color:white;
-    text-decoration:none;
-    background-color:#0277bdff;
-}
 
 .user-icon {
     position:fixed;

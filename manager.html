@@ -67,16 +67,17 @@
                 <div class="col-4 py-2 px-lg-3 leftcol-bg d-none d-sm-block">
                     <!--Sidebar-->
                     <div class="list-group list-group-flush">
-                        <button type="button" class="list-group-item list-group-item-action activelist" aria-current="true">All</button>
-                        <button type="button" class="list-group-item list-group-item-action trans">Important</button>
-                        <button type="button" class="list-group-item list-group-item-action trans">Today</button>
-                        <button type="button" class="list-group-item list-group-item-action trans">Next 7 Days</button>
-                        <button type="button" class="list-group-item list-group-item-action trans">Private</button>
+                        <button type="button" class="list-group-item list-group-item-action active" aria-current="true" id="all">All</button>
+                        <button type="button" class="list-group-item list-group-item-action trans" id="isImportant">Important</button>
+                        <button type="button" class="list-group-item list-group-item-action trans" id="isToday">Today</button>
+                        <button type="button" class="list-group-item list-group-item-action trans" id="sevenDays">Next 7 Days</button>
+                        <button type="button" class="list-group-item list-group-item-action trans" id="isPrivate">Private</button>
                     </div>
                     <!--End Sidebar-->
                 </div>
                 <div class="col py-2 px-lg-3 border bg-light d-block">
-                    <h1>All</h1>
+                    <h1 id="thetitle">All</h1>
+
                     <ul class="list-group list-group-flush" id="listoftask">
 
                       </ul>
